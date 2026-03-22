@@ -71,7 +71,7 @@ Pips têm reflexo próximo a 255; a face do dado e o fundo ficam próximos de ze
 Para uma vizinhança $\mathcal{N}(x,y)$ de tamanho $k \times k$:
 
 $$
-\hat{I}(x,y) = \text{mediana}\bigl\{I(p,q) \mid (p,q) \in \mathcal{N}(x,y)\bigr\}
+\hat{I}(x,y) = \text{mediana}\{I(p,q) \mid (p,q) \in \mathcal{N}(x,y)\}
 $$
 
 Usado com $k = 7$. Remove ruído sal-e-pimenta preservando bordas — ideal para pips
