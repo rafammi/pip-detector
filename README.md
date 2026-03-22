@@ -142,7 +142,7 @@ Os hiperparâmetros do `HoughCircles` são otimizados exaustivamente sobre o
 conjunto de treinamento. A função objetivo é a **acurácia por imagem**:
 
 $$
-\text{score}(\theta) = \sum_{i=1}^{N} \mathbf{1}\bigl[\hat{c}_i(\theta) = c_i\bigr]
+\text{score}(\theta) = \sum_{i=1}^{N} \mathbf{1}[\hat{c}_i(\theta) = c_i]
 $$
 
 onde $\hat{c}_i(\theta)$ é a contagem detectada com parâmetros $\theta$,
